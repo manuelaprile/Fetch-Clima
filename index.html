@@ -6,6 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Buscador del clima</title>
   <link rel="stylesheet" href="css/styles.css">
+  <!-- Accessibility Code for "weather-app-fetch.netlify.app" -->
+<script>
+  /*
+  
+  Want to customize your button? visit our documentation page:
+  
+  https://login.equalweb.com/custom-button.taf
+  
+  */
+  window.interdeal = {
+      "sitekey": "d57a792fc5bea0634aca213b567c998d",
+      "Position": "Left",
+      "domains": {
+          "js": "https://cdn.equalweb.com/",
+          "acc": "https://access.equalweb.com/"
+      },
+      "Menulang": "ES",
+      "btnStyle": {
+          "vPosition": [
+              "80%",
+              "80%"
+          ],
+          "scale": [
+              "0.5",
+              "0.5"
+          ],
+          "color": {
+              "main": "#1c4bb6",
+              "second": "#ffffff"
+          },
+          "icon": {
+              "outline": false,
+              "type": 13,
+              "shape": "circle"
+          }
+      }
+  };
+  (function(doc, head, body){
+      var coreCall             = doc.createElement('script');
+      coreCall.src             = interdeal.domains.js + 'core/5.0.8/accessibility.js';
+      coreCall.defer           = true;
+      coreCall.integrity       = 'sha512-DL4HncZs4SCAd8KqE2GWIK5NNVuoXkdhiYOwOy8/9ZKNyYN48XNdS3peJ22GmNR1AnHJuFHEtdFMgCEDONyKWQ==';
+      coreCall.crossOrigin     = 'anonymous';
+      coreCall.setAttribute('data-cfasync', true );
+      body? body.appendChild(coreCall) : head.appendChild(coreCall);
+  })(document, document.head, document.body);
+  </script>
 </head>
 
 <body>
